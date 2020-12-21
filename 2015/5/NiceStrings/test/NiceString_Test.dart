@@ -18,4 +18,16 @@ void main() {
   test('dvszwmarrgswjxmb is naughty', () {
     expect(checkIfNice('dvszwmarrgswjxmb'), equals(false));
   });
+  test('qjhvhtzxzqqjkmpb is nice', () {
+    expect(checkIfNewNice('qjhvhtzxzqqjkmpb'), equals(true));
+  });
+  test('xxyxx is nice', () {
+    expect(checkIfNewNice('xxyxx'), equals(true));
+  });
+  test('uurcxstgmygtbstg is naughty', () {
+    expect(checkIfNewNice('uurcxstgmygtbstg'), equals(false));
+  });
+  test('ieodomkazucvgmuy is naughty', () {
+    expect(checkIfNewNice('ieodomkazucvgmuy'), equals(false));
+  });
 }
